@@ -1,0 +1,33 @@
+{
+  "name": "javascript-finite-state-machine-sample",
+  "version": "1.0.0",
+  "description": "A JavaScript finite-state machine sample.",
+  "main": "index.js",
+  "scripts": {
+    "dev-server": "webpack-dev-server -d --colors",
+    "build:dev": "webpack -d --progress --colors",
+    "build:dist": "webpack -p --progress --colors",
+    "test": "node ./dist/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kozeghong/javascript-finite-state-machine-sample.git"
+  },
+  "author": "Ken Xu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kozeghong/javascript-finite-state-machine-sample/issues"
+  },
+  "homepage": "https://github.com/kozeghong/javascript-finite-state-machine-sample#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-runtime": "^6.26.0",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.9.7"
+  }
+}
